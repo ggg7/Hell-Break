@@ -16,6 +16,7 @@ ModelImporter:
     100016: pCube5
     100018: pCylinder1
     100020: //RootNode
+    100022: pCube6
     400000: pCone1
     400002: pCone2
     400004: pCone3
@@ -27,7 +28,9 @@ ModelImporter:
     400016: pCube5
     400018: pCylinder1
     400020: //RootNode
+    400022: pCube6
     2100000: lambert1
+    2100002: lambert2
     2300000: pCone1
     2300002: pCone2
     2300004: pCone3
@@ -38,6 +41,7 @@ ModelImporter:
     2300014: pCube4
     2300016: pCube5
     2300018: pCylinder1
+    2300020: pCube6
     3300000: pCone1
     3300002: pCone2
     3300004: pCone3
@@ -48,6 +52,7 @@ ModelImporter:
     3300014: pCube4
     3300016: pCube5
     3300018: pCylinder1
+    3300020: pCube6
     4300000: pCube1
     4300002: pCube2
     4300004: pCube3
@@ -58,6 +63,7 @@ ModelImporter:
     4300014: pCone2
     4300016: pCone3
     4300018: pCone4
+    4300020: pCube6
     9500000: //RootNode
   externalObjects: {}
   materials:

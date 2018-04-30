@@ -1,16 +1,29 @@
 fileFormatVersion: 2
-guid: c39e9392bb1d79648b788164d359eab7
-timeCreated: 1521575662
+guid: 70d3de4e6b46f654092968fe1e88a04c
+timeCreated: 1525121817
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: lambert1
-    2300000: //RootNode
-    3300000: //RootNode
+    100000: pCube2
+    100002: pCube3
+    100004: pCylinder1
+    100006: //RootNode
+    400000: pCube2
+    400002: pCube3
+    400004: pCylinder1
+    400006: //RootNode
+    2100000: lambert2
+    2100002: lambert1
+    2300000: pCube2
+    2300002: pCube3
+    2300004: pCylinder1
+    3300000: pCube2
+    3300002: pCube3
+    3300004: pCylinder1
     4300000: pCylinder1
+    4300002: pCube2
+    4300004: pCube3
     9500000: //RootNode
   externalObjects: {}
   materials:
