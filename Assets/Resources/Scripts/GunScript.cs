@@ -9,7 +9,6 @@ public class GunScript : MonoBehaviour {
 
 	public Camera fpsCam;
 	public ParticleSystem muzzleFlash;
-	public GameObject impactEffect;
 
 	private float nextFireTime = 0f;
 	
@@ -42,8 +41,6 @@ public class GunScript : MonoBehaviour {
 				hit.rigidbody.AddForce(-hit.normal * impactForce);
 			}
 
-			GameObject impactGO = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
-			Destroy(impactGO, 2f);
 		}
 	}
 
