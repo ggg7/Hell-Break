@@ -13,6 +13,7 @@ public class PlayerHealth : MonoBehaviour {
     public Color flashColor = new Color(1f, 0f, 0f, 0.1f);
 
     bool damaged;
+    bool isDead;
 
     void Awake()
     {

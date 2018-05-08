@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 195762358522895268}
   - component: {fileID: 114240524911495844}
   - component: {fileID: 114814337672823330}
-  - component: {fileID: 114774880100444384}
+  - component: {fileID: 114516916117836450}
   m_Layer: 0
   m_Name: Skeleton@Skin
   m_TagString: Untagged
@@ -865,7 +865,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1292060408182228}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -141.1, y: 0, z: -4.7}
+  m_LocalPosition: {x: -161.05762, y: -0.01, z: -5.639329}
   m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children:
   - {fileID: 4348173223145662}
@@ -1228,7 +1228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b5746670e12f0f4f8a8db56b7bce341, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114774880100444384
+--- !u!114 &114516916117836450
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -1236,12 +1236,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1292060408182228}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0b46a6ed2310404a8d5f5714a6d3d1d, type: 3}
+  m_Script: {fileID: 11500000, guid: e8044568466a3e440bf60a3f993fd926, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  sinkSpeed: 2.5
+  health: 100
 --- !u!114 &114814337672823330
 MonoBehaviour:
   m_ObjectHideFlags: 1

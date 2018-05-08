@@ -30,17 +30,11 @@ public class GunScript : MonoBehaviour {
 		{
 			Debug.Log(hit.transform.name);
 
-			Target target = hit.transform.GetComponent<Target>();
+            Target target = hit.transform.GetComponent<Target>();
 			if(target != null)
 			{
 				target.TakeDamage(damage);
 			}
-
-			if(hit.rigidbody != null)
-			{
-				hit.rigidbody.AddForce(-hit.normal * impactForce);
-			}
-
 		}
 	}
 
