@@ -10,17 +10,21 @@ public class MeleeWeapon : MonoBehaviour {
      private int comboIndex = 0 ;
      private Animator animator;
      private float resetTimer;
-     void Awake()
+    public AudioClip laserSound;
+    public AudioSource soundSource;
+    void Awake()
      {
          if( comboParams == null || (comboParams != null && comboParams.Length == 0))
              comboParams = new string[]{"MeleeAttack1", "MeleeAttack2", "MeleeAttack3" };
          
          animator = GetComponent<Animator>() ;
-     }
+         soundSource.clip = laserSound;
+    }
      void Update()
      {
          if ( Input.GetButtonDown( "Fire1" ) && comboIndex < comboParams.Length )
          {
+             soundSource.Play();
              Debug.Log( comboParams[comboIndex] + " triggered" );
              animator.SetTrigger( comboParams[comboIndex] );
              

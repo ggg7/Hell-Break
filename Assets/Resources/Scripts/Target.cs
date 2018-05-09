@@ -4,12 +4,6 @@ using System.Collections;
 public class Target : MonoBehaviour {
 
 	public float health = 100f;
-    private Animator anim;
-
-    void Start()
-    {
-        anim.GetComponent<Animator>();
-    }
 
 	public void TakeDamage(float amount)
 	{

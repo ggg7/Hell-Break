@@ -9,14 +9,21 @@ public class GunScript : MonoBehaviour {
 
 	public Camera fpsCam;
 	public ParticleSystem muzzleFlash;
+    public AudioClip laserSound;
+    public AudioSource soundSource;
 
 	private float nextFireTime = 0f;
 	
+    void Start()
+    {
+        soundSource.clip = laserSound;
+    }
 	
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetButton("Fire1") && Time.time >= nextFireTime)
 		{
+            soundSource.Play();
 			nextFireTime = Time.time +1f/fireRate;
 			Shoot();
 		}
